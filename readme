@@ -1,0 +1,120 @@
+# Sharon Wairimu Portfolio
+
+## Overview
+![Portfolio Screenshot](./images/screenshot.png)
+
+A responsive portfolio website showcasing Sharon Wairimu's expertise in microbiology and culinary arts. The site features a clean design with sections for professional background, research work, and recipe collections.
+
+## Features
+
+### Microbiology Portfolio
+- Professional background and education
+- Research projects and publications
+- Laboratory skills and specialties
+- Academic achievements
+
+### Culinary Portfolio
+- Recipe collection hub
+- Detailed chicken recipes
+- Fried rice variations
+- Cooking techniques
+
+### Technical Features
+- Fully responsive design
+- Semantic HTML5 structure
+- Clean CSS styling
+- Easy-to-navigate layout
+- Fast loading performance
+
+## Technologies Used
+
+- **Frontend**:
+  - HTML5
+  - CSS3 (Flexbox/Grid)
+  - Responsive Web Design
+
+- **Development Tools**:
+  - Visual Studio Code
+  - Git/GitHub
+  - Chrome DevTools
+
+## Project Structure
+
+```
+sharon-portfolio/
+├── index.html          # Homepage
+├── about.html          # Professional background
+├── research.html       # Scientific work
+├── menu.html           # Recipe hub
+├── recipe.html         # Chicken recipes
+├── recipe2.html        # Fried rice recipes
+├── style.css           # Main stylesheet
+├── images/             # All assets
+│   ├── profile.jpg
+│   ├── lab-work.jpg
+│   ├── chicken-dish.jpg
+│   ├── fried-rice.jpg
+│   └── screenshot.png
+├── LICENSE             # MIT License
+└── README.md           # Documentation
+```
+
+## Setup & Deployment
+
+### Local Development
+1. Clone repository:
+   ```bash
+   git clone https://github.com/yourusername/sharon-portfolio.git
+   ```
+
+2. Navigate to project:
+   ```bash
+   cd sharon-portfolio
+   ```
+
+3. Open in browser:
+   ```bash
+   open index.html  # Mac
+   start index.html # Windows
+   ```
+
+### Web Hosting
+1. Upload all files to your hosting provider
+2. Ensure all file paths are correct
+3. Test all navigation links
+
+## Customization Guide
+
+1. **Personal Information**:
+   - Update content in HTML files
+   - Replace placeholder images
+   - Modify contact details
+
+2. **Styling**:
+   - Color scheme: Edit CSS variables
+   ```css
+   :root {
+     --primary: #2c3e50;
+     --secondary: #e74c3c;
+   }
+   ```
+   - Fonts: Change in `style.css`
+   - Layout: Adjust container sizes
+
+3. **Adding Content**:
+   - New pages: Create HTML files and link in navigation
+   - Recipes: Add to menu.html with proper linking
+   - Research: Create new project entries
+
+## License
+This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
+## Contact
+**Sharon Wairimu**  
+📞 +254 743 269 831  
+📧 sharonwairimu@example.com  
+📍 Nairobi, Kenya
+
+---
+
+**Note**: Replace all placeholder content with your actual information and images before deployment. For best results, use high-quality images (minimum 1200px width) for the portfolio sections.
