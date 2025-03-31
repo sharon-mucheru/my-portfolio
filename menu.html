@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub | Sharon Wairimu</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .recipe-hub {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .recipe-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .recipe-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .recipe-content {
+            padding: 1.5rem;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.6rem 1.2rem;
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sharon Wairimu</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html" class="active">Recipes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>My Recipe Collection</h2>
+        <p>Browse my favorite culinary creations</p>
+        
+        <div class="recipe-hub">
+            <!-- Chicken Recipe Card -->
+            <div class="recipe-card">
+                <img src="./images/nathan-dumlao-IjovY65WQiE-unsplash.jpg" alt="Lemon Herb Chicken">
+                <div class="recipe-content">
+                    <h3>Chicken Specialties</h3>
+                    <p>My perfected chicken recipes with amazing flavors</p>
+                    <a href="recipe.html" class="btn">View Recipes</a>
+                </div>
+            </div>
+            
+            <!-- Fried Rice Recipe Card -->
+            <div class="recipe-card">
+                <img src="./images/christopher-alvarenga-rQX9eVpSFz8-unsplash.jpg" alt="Special Fried Rice">
+                <div class="recipe-content">
+                    <h3>Fried Rice Variations</h3>
+                    <p>Signature fried rice recipes from different cuisines</p>
+                    <a href="recipe2.html" class="btn">View Recipes</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact: 0745202642 | Email: sharonwairimu@example.com</p>
+            <p>&copy; 2025 Sharon Wairimu</p>
+        </div>
+    </footer>
+</body>
+</html>
